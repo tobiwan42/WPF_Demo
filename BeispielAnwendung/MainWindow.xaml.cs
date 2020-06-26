@@ -32,7 +32,6 @@ namespace BeispielAnwendung
 
         void ListViewClick(object sender, RoutedEventArgs e)
         {
-            Console.WriteLine(DataList.SelectedItem.ToString());
             ItemsSeries graph = null;
             Function selectedFunction = (Function) DataList.SelectedIndex;
 

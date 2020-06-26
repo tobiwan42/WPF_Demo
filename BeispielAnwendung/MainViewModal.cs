@@ -12,10 +12,8 @@
             this.MyModel = new PlotModel { Title = "Example 1" };
             ItemsSeries sinus = new FunctionSeries(Math.Cos, -5, 5, 0.1, "cos(x)");
             ItemsSeries cosinus = new FunctionSeries(Math.Sin, -5, 5, 0.1, "sin(x)");
-            ItemsSeries tangenz = new FunctionSeries(Math.Tan, -5, 5, 0.1, "tan(x)");
             this.MyModel.Series.Add(sinus);
             this.MyModel.Series.Add(cosinus);
-            this.MyModel.Series.Add(tangenz);
             //this.MyModel.Series.Clear();
         }
 
